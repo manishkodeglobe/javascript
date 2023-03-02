@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template Literals / Template Strings</title>
+</head>
+<body>
+    
+
+    <script>
+const firstName = "Manish";
+const lastName = "verma";
+const year  = 2023;
+const BirthYear = 2000;
+const job = "website Developer";
+
+
+//JavaScript ES5 me String and variables and strings  ko Concatination krne ke liye + operator ka use kia jata tha and or string "" ke andar likhi jaati thi
+console.log("I' Am " + firstName + lastName +  "\n" + "And  I' Am " + (year - BirthYear) + " Year old  \n"  + "And my Work is " + job);
+
+// Javascript ES6 Template string or Template literals
+// Js ES6 me Template String ko Backtics me likhi jaati he
+console.log(`I Am ${firstName}${lastName}\nAnd I am ${year - BirthYear}Year old\nAnd My Work Is ${job}`)
+
+    </script>
+</body>
+</html>

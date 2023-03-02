@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>type conversion</title>
+</head>
+<body>
+    
+
+    <script>
+
+//Type conversion
+const inputYear  = '1991';
+console.log(Number(inputYear), inputYear); //string to Number convert
+console.log(Number(inputYear) + 18);
+console.log(Number('It is not a valid number!..it is a string')); // iska output NAN Ayega kyuki isme valid number nhi dala he 
+console.log(typeof NaN);// check for Acutally means not a number
+console.log(String(23),23); // isme ek 23 number ko string me convert kia he or dusra  number he 
+
+
+ 
+//Type coercion
+        console.log('I am ' + 23 + ' years old');
+        console.log('23'-'10' -3);
+        console.log('23' / '2');
+
+
+        let n = '1' + 1;// '11'
+        n = n -1;
+        console.log(n);
+
+//New Type Coercion
+
+
+const num1 = '10';
+const num2 =  10;
+console.log(num1 + num2)
+
+const num3 = Number('10');
+const num4 = 10;
+console.log(num3 + num3)
+
+
+
+
+
+    </script>
+</body>
+</html>

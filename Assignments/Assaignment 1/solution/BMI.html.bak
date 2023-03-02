@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assaigments</title>
+</head>
+<body>
+
+
+
+
+
+    
+
+    <script>
+ 
+ 
+// BMI CalCulate 
+// Formula ===   [  BMI = MASS / (height * height)2 ]
+
+
+const marksWeight = 78;
+const markHeight  = 1.69;
+
+const johnweight  = 92;
+const johnHeight  = 1.95;
+
+const markHigherBMI =  marksWeight / (markHeight * markHeight );
+const johnHigherBMI =  johnweight / (johnHeight * johnHeight)  ;
+
+document.write(markHigherBMI);
+document.write(johnHigherBMI);
+
+document.write(markHigherBMI > johnHigherBMI );
+ 
+  
+    </script>
+</body>
+</html>
